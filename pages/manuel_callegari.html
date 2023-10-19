@@ -24,12 +24,43 @@
                 </ul>
         </nav>
     </header>
-    <h1>Soy la pagina de Manuel Callegari</h1>
-        <p>Soy Manuel Callegari, estudio sistemas en Concepcion del Uruguay en UTN.</p>
-        <p>
-            Naci en Buenos Aires. Y me crie en un pueblo de Entre Rios llamado Aldea San Antonio.
-        </p>
-        <p>Actualmente tengo 24 años, y el 4 de Diciembre cumplo 25 años
-        </p>
+    <h1>Formulario de mi pagina </h1>
+    <form action="" method="post" id="formRegister">
+        <label for="nombre">Nombre: </label>
+        <br>
+        <input type="text" id="nombre" name="nombre" placeholder="Pepe" required>
+        <br>
+        <label for="apellido">Apellido: </label>
+        <br>
+        <input type="text" id="apellido" name="apellido" placeholder="Argento" required>
+        <br>
+        <label for="dni">Dni: </label>
+        <br>
+        <input type="number" id="dni" name="dni" maxlength="8" required>
+        <br>
+        <label for="password">password: </label>
+        <br>
+        <input type="password" id="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*_=+-]).{8,12}$
+        " required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="pepe@gmail.com">
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+    </form>
+
+    <div>
+        <button>
+            <a href="https://www.racingclub.com.ar/" target="_blank">Pagina del primer grande</a>
+        </button>
+    </div>
+    <div>
+        <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt3c9fafbca7ae4858/60dfb5bc8aa56107a953c79f/87b24fb621b1d69f2da943950b1bd6cc2751d68a.jpg" alt="Hinchada de Racing Club">
+    </div>
+
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.6337217255154!2d-58.370221369068915!3d-34.667911534874236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccceccdd8d455%3A0xe771f022c22a954b!2sEstadio%20Presidente%20Per%C3%B3n!5e0!3m2!1ses-419!2sar!4v1697741732836!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </body>
 </html>
